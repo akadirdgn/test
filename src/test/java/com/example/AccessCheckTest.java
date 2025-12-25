@@ -11,7 +11,7 @@ public class AccessCheckTest {
     @Test
     public void testUrlAccess() {
         String targetUrl = "https://example.com";
-        System.out.println("Checking access too: " + targetUrl);
+        System.out.println("Checking access to: " + targetUrl);
 
         try {
             URL url = new URL(targetUrl);
@@ -23,11 +23,7 @@ public class AccessCheckTest {
             int responseCode = connection.getResponseCode();
             System.out.println("Response Code: " + responseCode);
 
-<<<<<<< Updated upstream
-            assertEquals(500, responseCode, "Expected HTTP 500 but got " + responseCode);
-=======
-            assertEquals(200, responseCode, "Expected HTTP 200 buttt got " + responseCode);
->>>>>>> Stashed changes
+            assertEquals(200, responseCode, "Expected HTTP 200 but got " + responseCode);
 
         } catch (Exception e) {
             e.printStackTrace();
