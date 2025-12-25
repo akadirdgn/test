@@ -6,4 +6,6 @@ This repository contains a demonstration of a Jenkins pipeline for a Java projec
 
 - `src/`: Source code
 - `Jenkinsfile`: Pipeline definition
-- `pom.xml`: Maven configuration
+- `pom.xml`: Maven configurationü
+
+KADİRR
