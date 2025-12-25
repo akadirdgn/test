@@ -23,7 +23,11 @@ public class AccessCheckTest {
             int responseCode = connection.getResponseCode();
             System.out.println("Response Code: " + responseCode);
 
+<<<<<<< Updated upstream
             assertEquals(500, responseCode, "Expected HTTP 500 but got " + responseCode);
+=======
+            assertEquals(200, responseCode, "Expected HTTP 200 buttt got " + responseCode);
+>>>>>>> Stashed changes
 
         } catch (Exception e) {
             e.printStackTrace();
